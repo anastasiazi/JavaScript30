@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CSS Variables </title>
+</head>
+
+<body>
+  <header>
+    <h1 class="header__title">Update CSS Variables with <span class="h1">JS</span> </h1>
+  </header>
+  <div class="container">
+    <div class="controls__wrapper">
+      <div class="controls__item">
+        <label for="spacing">Spasing:</label>
+        <input class="control" type="range" name="spacing" min="5" max="50" value="5" data-sizing="px">
+      </div>
+
+      <div class="controls__item">
+        <label for="spacing">Blur:</label>
+        <input class="control" type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+      </div>
+
+      <div class="controls__item">
+        <label for="spacing">Base color:</label>
+        <input type="color" name="base" value="#fea348">
+      </div>
+    </div>
+
+    <img class="main__img" src="./image/main.jpg" alt="">
+  </div>
+
+
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
