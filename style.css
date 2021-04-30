@@ -1,0 +1,38 @@
+/* colors */
+
+/* white #e5f9ff */
+/* ligh #69c0db */
+/* one more #98519d */
+/* main #fcb410 */
+/* dark #3c3c4f */
+
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #e5f9ff;
+  background-color: #fcb410;
+}
+
+/* header */
+.header__title {
+  margin: 10rem auto 0;
+
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+.header__title:hover {
+  transform: scale(1.2);
+}
